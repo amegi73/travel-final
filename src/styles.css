@@ -1,6 +1,6 @@
 body {
   font-family: "Poppins", sans-serif;
-  background-color: #272044;
+  background: #272044;
 }
 
 .container {
@@ -65,12 +65,14 @@ header a {
 
 footer {
   color: white;
-  background-image: linear-gradient
-      (rgba(39, 32, 68, 0.6), (rgba(39, 32, 68, 0.6))),
+  background-image: linear-gradient(
+      rgba(39, 32, 68, 0.6),
+      rgba(39, 32, 68, 0.6)
+    ),
     url("../images/clissold.png");
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 100px 0;
+  padding: 100px 0px;
 }
 
 footer h3 {
@@ -104,7 +106,7 @@ footer a {
 
 @media (max-width: 960px) {
   header {
-    padding: 60px;
+    padding: 60px 0;
   }
 
   header h1 {
